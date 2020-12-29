@@ -1,0 +1,70 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },   
+  {
+    "id": 0,
+    "icon": "fa fa-file-text",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/introduccion.html"
+  },
+  {
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "personalidad",
+    "title": "1. ¿Qué es personalidad?",    
+    "path": "pages/tema-1.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "personalidad",
+        "title": "1.1 Componentes de la personalidad",
+        "anchor": "tema1_1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "personalidad",
+        "title": "1.2 Tipos de personalidad",
+        "anchor": "tema1_2"
+      }    
+    ]  
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "que_es_autoestima",
+    "title": "2. ¿Qué es la autoestima?",    
+    "path": "pages/tema-2.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "que_es_autoestima",
+        "title": "2.1 Sentido de eficacia personal o autoeficacia",
+        "anchor": "tema2_1"
+      }, 
+      {
+        "icon": "fa fa-file-text",
+        "slug": "que_es_autoestima",
+        "title": "2.2 Sentido de mérito personal o auto dignidad",
+        "anchor": "tema2_2"
+      },  
+      {
+        "icon": "fa fa-file-text",
+        "slug": "que_es_autoestima",
+        "title": "2.3 Importancia y niveles de autoestima",
+        "anchor": "tema2_3"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "que_es_autoestima",
+        "title": "2.4 Escalera de la autoestima",
+        "anchor": "tema2_4"
+      }
+    ]   
+  }  
+]
